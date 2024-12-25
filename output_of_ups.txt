@@ -1,0 +1,42 @@
+Init SSL without certificate database
+battery.charge: 79
+battery.charge.low: 10
+battery.charge.warning: 20
+battery.mfr.date: CPS
+battery.runtime: 4230
+battery.runtime.low: 300
+battery.type: PbAcid
+battery.voltage: 26.6
+battery.voltage.nominal: 24
+device.mfr: CPS
+device.model: VP1600ELCD
+device.type: ups
+driver.name: usbhid-ups
+driver.parameter.pollfreq: 30
+driver.parameter.pollinterval: 15
+driver.parameter.port: auto
+driver.parameter.productid: 0501
+driver.parameter.synchronous: auto
+driver.parameter.vendorid: 0764
+driver.version: 2.8.0
+driver.version.data: CyberPower HID 0.6
+driver.version.internal: 0.47
+driver.version.usb: libusb-1.0.26 (API: 0x1000109)
+input.transfer.high: 295
+input.transfer.low: 167
+input.voltage: 242.0
+input.voltage.nominal: 230
+output.voltage: 242.0
+ups.beeper.status: enabled
+ups.delay.shutdown: 20
+ups.delay.start: 30
+ups.load: 12
+ups.mfr: CPS
+ups.model: VP1600ELCD
+ups.productid: 0501
+ups.realpower.nominal: 960
+ups.status: OB
+ups.test.result: No test initiated
+ups.timer.shutdown: -60
+ups.timer.start: -60
+ups.vendorid: 0764
