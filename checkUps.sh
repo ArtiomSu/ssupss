@@ -7,8 +7,10 @@ MIN_PERCENT=30
 # test mode uses the fake upsc output from the file in the repo. Ideally replace this with your own for testing
 TEST_MODE=0
 SEND_NOTIFICATION=0
+# set this to 1 to use the fake output from the output_of_ups.txt file. handy if you want to test different percentages when editing the script, whithout needing to wait for the ups to discharge
+USE_FAKE_UPSC_OUTPUT=0
 
-if [[ "$TEST_MODE" -eq 1 ]]; then
+if [[ "$USE_FAKE_UPSC_OUTPUT" -eq 1 ]]; then
     function upsc(){
         cat ./output_of_ups.txt
     }
