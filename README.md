@@ -20,13 +20,13 @@ This setup assumes that you are using a debian based OS. Other linux flavours sh
 
 1. `apt install nut`
 
-2. edit `/etc/nut.conf`
+2. edit `/etc/nut/nut.conf`
 
 	```txt
 	MODE=standalone
 	```
 
-3. edit `/etc/ups.conf`
+3. edit `/etc/nut/ups.conf`
 
 	```sh
 	pollinterval = 15
@@ -95,4 +95,7 @@ This setup assumes that you are using a debian based OS. Other linux flavours sh
 	you can then check if this config is ok by running `logrotate -d /etc/logrotate.conf` and checking the output. This will keep the logs for only 3 days to not polute the filesystem.
 
 # Video Guide
-coming soon
+
+#### Setting this up on the raspbery pi
+
+[![part1](https://img.youtube.com/vi/j-guBGFqv5Q/0.jpg)](https://www.youtube.com/watch?v=j-guBGFqv5Q)
